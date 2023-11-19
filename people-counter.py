@@ -7,10 +7,10 @@ from sort import *
 #cap = cv2.VideoCapture(0)
 # cap.set(3, 640)
 # cap.set(4, 480)
-cap = cv2.VideoCapture("../Videos/people.mp4")
+cap = cv2.VideoCapture("./people.mp4")
 
 
-model = YOLO("../yoloweights/yolov8l.pt")
+model = YOLO("./yoloweights/yolov8l.pt")
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
